@@ -27,7 +27,7 @@ echo "已安装 Skill 到：$SKILL_DST"
 
 if command -v xhs >/dev/null 2>&1; then
   echo "已检测到 xhs-cli：$(command -v xhs)"
-  echo "可运行：xhs status"
+  echo "可运行：xhs status --json"
 else
   echo "未检测到 xhs-cli。请先安装：pipx install xiaohongshu-cli"
 fi
