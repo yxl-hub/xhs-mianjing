@@ -1,5 +1,7 @@
 # 小红书面经 Skill
 
+![小红书面经 Skill 宣传图](./宣传图.png)
+
 这是一个给 Codex 使用的小红书面经整理 Skill。Codex 直接复用上游 [xhs-cli](https://github.com/jackwener/xiaohongshu-cli) 的完整能力，通过本机 `xhs` 命令搜索、读取和整理小红书笔记。
 
 适合用来整理：
@@ -13,7 +15,9 @@
 
 ```text
 xiaohongshu-mianjing-skill/
+├── CHANGELOG.md
 ├── README.md
+├── 宣传图.png
 ├── scripts/
 │   └── install.sh
 └── xhs-mianjing/
